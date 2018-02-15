@@ -1,8 +1,10 @@
 .mainheading{
     text-align: center;
-    color: Navy;
+    color: #00796B;
 }
 body 
+
 {
-background: url('http://www.solidbackgrounds.com/images/2560x1440/2560x1440-light-blue-solid-color-background.jpg') repeat ;
+    background-color: white;
 }
+
