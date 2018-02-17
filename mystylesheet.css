@@ -12,6 +12,22 @@ h1 {
     background-color: white ;
 }
 
-a:active{
- border:1px solid grey;  
+a {
+    display: block;
+    width: 115px;
+    height: 35px;
+    background: lightblue;
+    padding: 15px;
+    text-align: center ;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
 }
+
+
+
+
+
+
+
+
