@@ -1,10 +1,17 @@
 .mainheading{
     text-align: center;
-    color: #00796B;
+    color: #123652;
 }
 body 
 
 {
-    background-color: white;
+    background-color: white ;
 }
 
+h1 {
+    background-color: white ;
+}
+
+a:active{
+ border:1px solid grey;  
+}
