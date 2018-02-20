@@ -1,6 +1,9 @@
+/* this page is used for styling */
+
 .mainheading{
+    font-size: 30px;
+    color: blue;
     text-align: center;
-    color: #123652;
 }
 body 
 
