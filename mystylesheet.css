@@ -19,6 +19,21 @@
     font-family: serif ;
 }
 
+.PersonalDetails{
+    font-family: serif ;
+    font-size: larger ;
+}
+
+.SelfIntroduction{
+    font-size: 30px;
+    color: #133453;
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    text-decoration: underline;
+}
+    
+
 
 p {
     text-align:center;
