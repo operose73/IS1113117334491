@@ -54,9 +54,20 @@
     margin: 0 auto;
 }
 
+.GD{
+    text-align: center;
+    width: 50em; 
+    word-wrap: break-word;
+    margin: 0 auto;
+}
 
+.Description{
+     text-decoration:underline;
+}
     
-
+.GDInfo{
+    list-style-type: circle;
+}
 p {
     text-align:center;
 }
