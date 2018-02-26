@@ -39,6 +39,22 @@
     word-wrap: break-word;
     margin: 0 auto;
 }
+
+.PBC{
+    text-align: center;
+    width: 50em; 
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+.UCCINFO{
+    text-align: center;
+    width: 50em; 
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+
     
 
 p {
