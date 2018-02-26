@@ -32,6 +32,13 @@
     font-family: serif;
     text-decoration: underline;
 }
+
+.SelfIntroductionBody{
+    text-align: center;
+    width: 20em; 
+    word-wrap: break-word;
+    margin: 0 auto;
+}
     
 
 p {
