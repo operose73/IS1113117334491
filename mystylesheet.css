@@ -9,6 +9,15 @@
     text-decoration: underline;
 }
 
+.Intro{
+    font-size: 25px;
+    color: #133453;
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    text-decoration: underline
+}
+
 .CenterButton{
     position: absolute;
     top:50%;
