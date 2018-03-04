@@ -1,3 +1,5 @@
+/* this page is used for styling */
+
 #section1{
     background-image: url(http://travelhdwallpapers.com/wp-content/uploads/2014/04/Wall-of-China-8.jpg);
 }
@@ -13,6 +15,27 @@
 .section{
     text-align: center;
     color: FloralWhite  ;
+}
+
+#section4{
+    background-color: White;
+}
+
+#section5{
+    background-color: White ;
+}
+
+#section6{
+    background-color: White ;
+}
+
+#section7{
+    background-color: White ;
+}
+
+.section{
+    text-align: center ;
+    color: Black ;
 }
 
 .SportsHeading{
