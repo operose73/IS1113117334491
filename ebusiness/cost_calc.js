@@ -6,10 +6,10 @@ function calcSub(){
     
     if(document.getElementById("salesforce").checked) {
     argSubTotal = 100;
-}
-else {
+    }
+    else {
     argSubTotal = 300;
-}
+    }
 
     display(argSubTotal);
     }

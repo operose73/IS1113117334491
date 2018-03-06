@@ -8,7 +8,6 @@
      
 
         <!--Page Piling-->
-                <meta charset="utf-8"/>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -19,11 +18,11 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script> 
     
     <script type = "text/javascript">
-$(document).ready(function() {
+    $(document).ready(function() {
 	$('#pagepiling').pagepiling({
 	    menu: null,
         direction: 'horizontal',
-        verticalCentered: true,
+        verticalCentered: false,
         sectionsColor: [],
         anchors: [],
         scrollingSpeed: 700,
@@ -52,14 +51,28 @@ $(document).ready(function() {
 });
 	</script>
 	
+	<!--Centering Image-->
+      <style>
+      img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      </style>
+	
 	</head>
 	<body>
 
 	    <div id="pagepiling">
-	<div class="section" id="section4">Salesforce</div>
-	<div class="section" id="section5">Cloud9</div>
-	<div class="section" id="section6">Amazon</div>
-	<div class="section" id="section7">Gmail
+	<div class="section" id="section4"><h1 class="MainHeading">Salesforce</h1><img src= http://www.birger.technology/blog/wp-content/uploads/2017/11/saas.png width=400px></img>
+	<h3 class="Body">Brief History</h3>
+	<p class="CloudHistory">The company was founded in 1999 by former Oracle executive Marc Benioff, Parker Harris, Dave Moellenhoff, and Frank Dominguez as a company specializing in software as a service (SaaS). Harris, Moellenhoff and Dominguez, three software developers previously at consulting firm Left Coast Software, were introduced to Benioff through friend and former Oracle colleague Bobby Yazdani. Harris and team wrote the initial sales automation software, which launched to its first customers in the fall of 1999. 
+	   In June 2004, the company's initial public offering was listed on the New York Stock Exchange under the stock symbol CRM and raised US$110 million. Early investors include Larry Ellison, Magdalena Yesil, Halsey Minor, Stewart Henderson, Mark Iscaro, and Igor Sill of Geneva Venture Partners, as well as Nancy Pelosi.
+       In October 2014, Salesforce announced the development of its Customer Success Platform to tie together Salesforce's services, including sales, service, marketing, analytics, community, and mobile apps. In October 2017, Salesforce would be launching Facebook Analytics tool for B2B marketers.</p>
+	</div>
+	<div class="section" id="section5"><h1 class="MainHeading">Cloud9</h1></div>
+	<div class="section" id="section6"><h1 class="MainHeading">Amazon</h1></div>
+	<div class="section" id="section7"><h1 class="MainHeading">Gmail</h1>
 	    <br/>
 	    
 	    <a href="../homepage.html"><button class="button" style="vertical-align:middle"><span>Home

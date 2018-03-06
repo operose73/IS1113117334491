@@ -2,35 +2,65 @@
 
 #section1{
     background-image: url(http://travelhdwallpapers.com/wp-content/uploads/2014/04/Wall-of-China-8.jpg);
+        text-align: center;
+        color: HoneyDew  ;
 }
 
 #section2{
     background-image: url(http://joyenergizer.com/wp-content/uploads/2014/07/beautiful-japan-in-photography-16.jpg);
+        text-align: center;
+        color: HoneyDew  ;
 }
 
 #section3{
     background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/korea-wallpaper-3.jpg);
-}
-
-.section{
-    text-align: center;
-    color: HoneyDew  ;
+        text-align: center;
+        color: HoneyDew  ;
 }
 
 #section4{
     background-color: #009999;
+    text-align: center;
+}
+
+.CloudHistory{
+    text-align: center;
+    width: 50em; 
+    word-wrap: break-word;
+    margin: 0 auto;
 }
 
 #section5{
     background-color: #009999 ;
+    text-align: center;
 }
 
 #section6{
     background-color: #009999 ;
+    text-align: center;
 }
 
 #section7{
     background-color: #009999 ;
+    text-align: center;
+}
+
+.MainHeading{
+    font-size: 50px;
+    color: Black;
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    text-decoration: underline;
+} 
+
+.Body{
+    font-size: 30px;
+    color:Black;
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    text-decoration: underline;
 }
 
 
